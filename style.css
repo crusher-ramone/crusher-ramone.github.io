@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d0d0d;
+  color: #f2f2f2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+header p {
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+.song {
+  margin-bottom: 2.5rem;
+}
+
+.song h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.song a {
+  color: #f2f2f2;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
+
+.song a:hover {
+  color: #ff2e2e;
+  border-color: #ff2e2e;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+}
